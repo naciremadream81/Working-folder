@@ -1,0 +1,50 @@
+You are a full-stack architect specializing in government/enterprise workflow systems. Design and implement a comprehensive permit processing application with the following specifications:
+
+## **SYSTEM REQUIREMENTS**
+1. **Dual User Roles**:
+   - Applicants: Submit, track, and manage permit applications
+   - Reviewers/Administrators: Review, approve/reject, manage workflows
+
+2. **Core Features**:
+   - Multi-step permit application wizard
+   - Document upload & validation
+   - Real-time status tracking dashboard
+   - Automated notifications (email/SMS)
+   - Review queue with prioritization
+   - Audit trail and version history
+   - Reporting & analytics dashboard
+
+3. **Technical Stack**:
+   - Frontend: React 18 + TypeScript + Tailwind CSS
+   - Backend: Node.js/Express or Python/FastAPI
+   - Database: PostgreSQL with Redis cache
+   - File Storage: AWS S3 or equivalent
+   - Authentication: JWT with role-based access
+
+## **DESIGN PRINCIPLES**
+- Clean, accessible UI following WCAG 2.1 guidelines
+- Mobile-responsive design
+- Intuitive workflow with minimal clicks
+- Status visualization through progress indicators
+- Professional government aesthetic with blue/neutral palette
+
+## **IMPLEMENTATION INSTRUCTIONS**
+1. First, design the database schema with tables, relationships, and constraints
+2. Create wireframes for key screens with layout explanations
+3. Generate component hierarchy and state management strategy
+4. Write complete, production-ready code for:
+   - Database models and migrations
+   - API endpoints with validation
+   - Core frontend components
+   - Authentication system
+5. Include error handling, security considerations, and performance optimizations
+6. Provide deployment configuration (Docker, env variables)
+
+## **KEY SCREENS TO DESIGN**
+- Applicant Dashboard
+- New Permit Application Wizard
+- Document Upload Interface
+- Reviewer Work Queue
+- Permit Detail View with Timeline
+- Admin Analytics Dashboard
+- Contractor dashboard for adding and modifying contractors  
